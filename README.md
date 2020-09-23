@@ -24,6 +24,8 @@ Quick link to access s3 services:
 
 Once in the s3 console:
 
+## Create an s3 Bucket
+
 Click "Create bucket" to start.
 
 In the popup modal "bucket name" input, you will enter a fully unique bucket name using "palindrome" plus your initials or other unique identifier of your choosing.
@@ -51,3 +53,31 @@ Click "next" to get to the "Review" step.
 Review the summary.
 
 Click "Create bucket"
+
+## Build the app
+
+Run
+
+`npm install`
+
+`npm run build`
+
+## Drag and Drop Files
+
+Open your computer's file explore to the "dist" child folder.
+
+Click on the bucket name to view details where you will be able to drag and drop files.
+
+You will see an "^ Upload" button.
+
+Click the Upload button to see a new view that has text with "Drag and drop files and folders here".
+
+Drag and drop your index.html and your javascript folder onto this UI.
+
+Be sure to click "next". Do not click "upload" or you won't be able to make your files public.
+
+You can adjust permissions after but this next step is an easy one.
+
+After you click "next" you will be on the "Set permissions" step.
+
+Under "Manage public permissions" select Grant public access.
